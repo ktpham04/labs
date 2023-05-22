@@ -1,4 +1,4 @@
-# Lab Report 3: Researching Command 'Find'
+# Lab Report 3: Researching Command 'Grep'
 * The four command-line options that I chosen, were
 * `-i`
 * `-l`
