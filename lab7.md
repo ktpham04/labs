@@ -21,6 +21,7 @@ The errors we had was in the file of `ListExamples.java`, in order to fix these 
 
 ## Step 4: Fix the code
 Given the following code, we must change the last code 
+To change the code, we must use the command: `vim ListExamples.java <enter>` which takes our terminal to vim and lets us to edit. In Vim, we used the keys: `<i>` to enter insert mode and `<h><h>...<h>` to go from the start of the page to the last while loop towards the end of the page within the ListExamples.java file.
 ```
 while (index2 < list2.size()) {
 result.add(list2.get (index2)) ;
@@ -38,7 +39,7 @@ index2 += 1;
 }
 return result;
 ```
-After changing the code, the test should now work.
+After changing the code, we must save and quit vim by using the commands: `<esc> <:wq> <enter>` after doing so the test should now work.
 
 ## Step 5: Run Test Successfully
 Once you changed the code you now want to run it again with this command: `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>`
