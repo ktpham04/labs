@@ -27,7 +27,7 @@
 * Given the following code, we must change the last code 
 * To change the code, we must use the command: `vim ListExamples.java <enter>` which takes our terminal to vim and lets us to edit. In Vim, we used the keys: `<i>` to enter insert mode and use arrow keys to go from the start of the page to the last while loop towards the end of the page within the ListExamples.java file.
 * In my case, the command `<down><down><down><down>` was used 44 times and `<right><right><right><right>` was used 13 times
-* Once I was hovering over `index1` in the last while loop, I pressed `<i>` to enter insert mode and change `index1` to `index2`. For instace like the code down below.
+* Once I was hovering over `index1` in the last while loop, I pressed `<i>` to enter insert mode and used `<delete>` `2` to change `index1` to `index2`. For instace like the code down below (shown using >>>>>)
 ```
 while (index2 < list2.size()) {
 result.add(list2.get (index2)) ;
@@ -41,7 +41,7 @@ to
 while (index2 < list2.size()) {
 result.add(list2.get (index2)) ;
 // change index1 below to index2 to fix test
-index2 += 1;
+>>>>> index2 += 1;
 }
 return result;
 ```
