@@ -42,10 +42,10 @@ return result;
 After changing the code, we must save and quit vim by using the commands: `<esc> <:wq> <enter>` after doing so the test should now work.
 
 ## Step 5: Run Test Successfully
-Once you changed the code you now want to run it again with this command: `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>`
+Once you changed the code you now want to run it again with this command: `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter> java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>`
 Which will give you the output in the image below
 
-![Image](ttest.png)
+![Image](slay.png)
 
 ## Step 6: Commit & Push
 In order to commit we must use the command `git add . <enter` then `git commit -m "updated" <enter>`
