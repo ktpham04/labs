@@ -11,3 +11,4 @@ Hi I am currently using a Mac device with Safari as my main browswer. I am havin
 TA Response:
 
 In looking through your test.sh file, it looks like you using the commands for Windows users. Try going back to Week 3 and use the commands that is designed for your Mac OS. The commands you should use is named under "Mac Users:"
+![image](mac.png)
